@@ -1,5 +1,7 @@
 # Harmony Search (HS) in MATLAB
 
+[Drawio - diagramy](https://app.diagrams.net/)
+
 <p align="center">
     <img src="https://yarpiz.com/wp-content/uploads/2015/09/ypea117-harmony-search.jpg" alt="Harmony Search (HS) in MATLAB">
 </p>
