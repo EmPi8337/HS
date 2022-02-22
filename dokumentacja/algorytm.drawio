@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T08:07:38.549Z" agent="5.0 (Windows)" etag="BujaeUkQQLnqxBSLj5Y3" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T12:02:41.791Z" agent="5.0 (Windows)" etag="en4ayV8J8AK35I5tknft" version="16.6.2" type="github">
   <diagram id="ztGioignhJyoYjqZtGQa" name="Page-1">
     <mxGraphModel dx="842" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YA8YuFgpxTzWTErR81UD-1" value="&lt;div&gt;1. Inicjalizacja parametrów harmonicznego szukania&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;a) rozmiar pamięci rozwiązań&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;b) wskaźnik uwzględnienia rozwiązań&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;c) tempo regulacji rozwiązań&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;d) maksymalna liczba szukań&lt;/div&gt;&lt;div&gt;2. Inicjalizacja parametrów problemu do optymalizacji&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="YA8YuFgpxTzWTErR81UD-1" value="&lt;div&gt;1. Inicjalizacja parametrów harmonicznego szukania&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;a) rozmiar pamięci rozwiązań HMS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;b) wskaźnik uwzględnienia rozwiązań HMCR&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;c) tempo regulacji rozwiązań PAR&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;d) maksymalna liczba szukań&lt;/div&gt;&lt;div&gt;2. Inicjalizacja parametrów problemu do optymalizacji&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="264" y="140" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lVG-BhEgfNJfGKUg8-pU-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -16,8 +16,8 @@
             <mxPoint x="414" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lVG-BhEgfNJfGKUg8-pU-3" value="&lt;div&gt;1. Inicjalizacja pamięci harmonicznej&lt;/div&gt;&lt;div&gt;2. Generowanie pierwotnych wektorów rozwiązań - tak dużo jak rozmiar pamięci rozwiązań pozwoli&lt;/div&gt;&lt;div&gt;3. zapisanie ich do pamięci harmonicznej &lt;br&gt; &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="268" y="300" width="296" height="80" as="geometry" />
+        <mxCell id="lVG-BhEgfNJfGKUg8-pU-3" value="&lt;div&gt;1. Inicjalizacja pamięci harmonicznej HM&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Generowanie pierwotnych wektorów rozwiązań - tak dużo jak rozmiar pamięci rozwiązań pozwoli&lt;/div&gt;&lt;div&gt;3. zapisanie ich do pamięci harmonicznej &lt;br&gt; &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="266" y="280" width="296" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lVG-BhEgfNJfGKUg8-pU-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YA8YuFgpxTzWTErR81UD-1" target="lVG-BhEgfNJfGKUg8-pU-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -25,11 +25,90 @@
             <mxPoint x="440" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TjnmQG_L_WYziqIGz26f-1" value="1. Inicjalizacja nowej pamięci harmonicznej z " style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="270" y="420" width="290" height="80" as="geometry" />
+        <mxCell id="TjnmQG_L_WYziqIGz26f-1" value="Inicjalizacja nowej pamięci harmonicznej bazującej na danych w pamięci, regulacja tępa rozwiązań, randomizacja " style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="294" y="410" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="TjnmQG_L_WYziqIGz26f-2" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="370" width="210" height="170" as="geometry" />
+        <mxCell id="TjnmQG_L_WYziqIGz26f-2" value="nowe rozwiązania lepsze niż&lt;br&gt;zapisane w pamięci?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="530" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lVG-BhEgfNJfGKUg8-pU-3" target="TjnmQG_L_WYziqIGz26f-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-2" value="Pamieć rozwiązań wyczerpana" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="730" width="126" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-3" value="aktualizacja pamięci rozwiązań" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-4" value="STOP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TjnmQG_L_WYziqIGz26f-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TjnmQG_L_WYziqIGz26f-2" target="hKowX7vRU3fA3pJiaKWS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="590" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-7" value="NIE" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hKowX7vRU3fA3pJiaKWS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TjnmQG_L_WYziqIGz26f-2" target="hKowX7vRU3fA3pJiaKWS-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="605" as="sourcePoint" />
+            <mxPoint x="580" y="605" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="594" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-11" value="TAK" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hKowX7vRU3fA3pJiaKWS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKowX7vRU3fA3pJiaKWS-3" target="hKowX7vRU3fA3pJiaKWS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="890" as="sourcePoint" />
+            <mxPoint x="460" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="594" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hKowX7vRU3fA3pJiaKWS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="720" as="sourcePoint" />
+            <mxPoint x="405" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="790" />
+              <mxPoint x="280" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-15" value="NIE" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hKowX7vRU3fA3pJiaKWS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKowX7vRU3fA3pJiaKWS-2" target="hKowX7vRU3fA3pJiaKWS-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="720" as="sourcePoint" />
+            <mxPoint x="460" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-17" value="TAK" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="hKowX7vRU3fA3pJiaKWS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-18" value="Algorytm harmonicznego szukania" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKowX7vRU3fA3pJiaKWS-19" value="Harmony search algoritm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
