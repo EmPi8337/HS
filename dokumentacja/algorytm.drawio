@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T21:26:31.698Z" agent="5.0 (Windows)" etag="XH6oH7GQiLFK8-1tMb4e" version="16.5.2" type="device"><diagram id="ztGioignhJyoYjqZtGQa" name="Page-1">5VdLc5swEP41HHJwBgN28NGvuI9ppxM7TX2UQQbFAlEhgs2vr4SEeTp2kmkmnZ6QPu2udlerb4VmToP9goLI/0ZciDVDd/eaOdMMo28ObP4RyEEiNyNDAh5FrhIqgSXKoAJ1hSbIhXFNkBGCGYrqoEPCEDqshgFKSVoX2xJc3zUCHmwBSwfgNvqAXOZL1DZuSvwTRJ5f7NwfjuRKAAphFUnsA5ekFcica+aUEsLkKNhPIRbJK/Ii9W5PrB4dozBklyisx/Y6ufWi/Sp7WM3pnd2/n/WUlSeAExWwZgwxtzdx0RMfemLYv+Yin0PkPAKMMsA/cmMQQEa1qalNzJQjPqAB4VJZCD0iAs6SHQgRKCxy1ypGO/YpoDgCodBnB3UKw9+JyNIk9RGDPb7scHwsnKCwXK2Y0QxzVDHId5Y2pQC44qqUZAECNI8kQNrU0kYjB8mFNJ/bgwxo04FmW4WdDW26+mFi2oiY0niXezwZh2jH50maeViG5oYI5mfxXHwfJhpHRMNgEIk6otBLMK+6M4fzYZx3r/Lrv4sPAcChSDnml2IDiivxQreNy25fRMkGwyARXCuyRiIm9s810OUFbNQyY1CShC4UDKIXCVrK/MxSTvgc81mA+awv7hVGXsjHGG5LY1WCKtgGUgb3FUgR1gISEdOBi6hVY2hJFdU9+pYi07TkYlNXmF/l4QIEiv+9o+2SIvlAsWQ3Y+Kfi97En3vb71+2i6/3nt2L7jsYc7ka361ameOmeI+C57N2IicdmTuZJnPQSFM7S32jI0v230qS0dFWmvkJ3bHoz3zmYBDHyKmnpV55cI/YLzG+HqjZWsmJ8WxfEZsdiknIQ6koiem6ulaq5bNCT7oK3dbDoFXIMUmoA88XCwPUg+xcG24fb+X8Bh3HV2AUYsDQU93drjNVO/wgiAdSVs9Ir1WPZTbKQoaptKovjIYhq98ow6YhmYeWobzEjmG/vurMNzxmak+Aykvm8WU8vYAh5EXNnz1QmEWQpoSFB8cXpwl3jFQYu7OX6b28XkT3dpO8l08Fmz/myMveLHrEUYLRxRGYIoIMRChW/qPc77ydPJshvau/6O/WYt7EncbQrhXtsZ1ULp8xGr4jeVr/H3k+929SJc/T1/7fJ0+rbshs1teryZNPy79MKV7+q5vzPw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T08:07:38.549Z" agent="5.0 (Windows)" etag="BujaeUkQQLnqxBSLj5Y3" version="16.6.2" type="github">
+  <diagram id="ztGioignhJyoYjqZtGQa" name="Page-1">
+    <mxGraphModel dx="842" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YA8YuFgpxTzWTErR81UD-1" value="&lt;div&gt;1. Inicjalizacja parametrów harmonicznego szukania&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;a) rozmiar pamięci rozwiązań&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;b) wskaźnik uwzględnienia rozwiązań&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;c) tempo regulacji rozwiązań&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;d) maksymalna liczba szukań&lt;/div&gt;&lt;div&gt;2. Inicjalizacja parametrów problemu do optymalizacji&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="264" y="140" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lVG-BhEgfNJfGKUg8-pU-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lVG-BhEgfNJfGKUg8-pU-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lVG-BhEgfNJfGKUg8-pU-1" target="YA8YuFgpxTzWTErR81UD-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="414" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVG-BhEgfNJfGKUg8-pU-3" value="&lt;div&gt;1. Inicjalizacja pamięci harmonicznej&lt;/div&gt;&lt;div&gt;2. Generowanie pierwotnych wektorów rozwiązań - tak dużo jak rozmiar pamięci rozwiązań pozwoli&lt;/div&gt;&lt;div&gt;3. zapisanie ich do pamięci harmonicznej &lt;br&gt; &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="268" y="300" width="296" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lVG-BhEgfNJfGKUg8-pU-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YA8YuFgpxTzWTErR81UD-1" target="lVG-BhEgfNJfGKUg8-pU-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TjnmQG_L_WYziqIGz26f-1" value="1. Inicjalizacja nowej pamięci harmonicznej z " style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TjnmQG_L_WYziqIGz26f-2" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="210" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
